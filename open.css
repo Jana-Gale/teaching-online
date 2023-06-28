@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #2b1b2b;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    padding-top: 100px;
+    margin: 0 auto;
+   
+
+    
+  
+}
+
+.big-shape{
+    background-color: #fff;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0px 1px 10px 1px cyan;
+    
+   
+
+}
+.big-shape img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    left: 50%;
+    transform: translate(-50%);
+   margin-top: 80px;
+    
+   
+    
+}
+.dhaxda{
+    background-color: cyan;
+    width: 100%;
+    height: 150px;
+    
+}
+.text{
+    margin: 35px auto 2px;
+    text-align: center;
+}
+.text h3{
+    color: blue;
+    font-weight: 500;
+}
+
+.text h4{
+    color: #FF2171;
+    font-weight: bold;
+   
+}
+
+
+.text p{
+    color: gray;
+    font-weight: 550;
+    text-transform: capitalize;
+    line-height: 1.4;
+
+   
+}
+button{
+    margin-top: 10px;
+   padding:14px 20px;
+    border-radius: 50px;
+    background-color: #FF2171;
+    color: #fff;
+    text-align: center;
+    border: none;
+    font-weight: bolder;
+    transition: 0.5s;
+    
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #FF2171;
+    color: #FF2171;
+}
+.icons{
+    margin: 15px;
+    text-align: center;
+    font-size: 24px;
+    color: #FF2171;
+}
+.icons .fa{
+    margin: 5px;
+    cursor: pointer;
+}
+.icons .fa-facebook{
+    background-color: blue;
+    padding: 5px;
+    color: #fff;
+    border-radius: 2px;
+}

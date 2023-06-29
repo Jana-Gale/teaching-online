@@ -298,13 +298,27 @@ button:hover{
     margin: 10px 0;
     
 }
-/* ---------------zooming css----------------- */
+/* ---------------zooming css------hover-- 33--------- */
 .slid:hover{
     
     transform: scale(1.1);
-
-    
+    background-color: #FF6000; 
+    border: none;
 }
+.slid:hover h2{
+    color: #Fff;
+}
+
+.slid:hover p{
+    color: #000;
+}
+.slid:hover .fa{
+    color: #fff;
+}
+
+/* ---------------zooming css------hover-- 33--------- */
+
+
 .slid .fa{
     font-size: 50px;
     color: #FF0060;

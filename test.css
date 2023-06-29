@@ -9,6 +9,7 @@ body{
 }
 .container{
     max-width: 1600px;
+   
     
 }
 
@@ -21,6 +22,9 @@ nav{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
     padding: 20px 7%;
     margin: auto;
+   
+ 
+
 }
 .active{
     color: red;
@@ -41,15 +45,18 @@ nav ul  li a{
     font-size: 20px;
 
 }
+
+/* ----------------patt 2  who am i---------------- */
 .box{
     width: 60%;
     margin: 100px auto 50px;
     display: flex;
     
 }
+
 .box img{
     width: 400px;
-    height: 400px;
+    height: 500px;
     margin: 20px;
     transition: 0.5s;
 }
@@ -90,16 +97,18 @@ nav ul  li a{
 .box button{
     background-color: #001C30;
     color: #fff;
-    width: 180px;
+    width: 150px;
     padding: 12px 0;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 10px;
     font-size: 24px;
     border: none;
+    transition: 0.5ms;
+    outline: none;
 }
 button:hover{
     background-color: #FF0060;
-    border: 2px solid black;
+    border: 2px solid blue;
 }
 /* 
 ---------------------part 3 about me--------------- */
@@ -240,7 +249,7 @@ button:hover{
     margin: 5px;
 }
 
-/* ------------------middle  what i do --------------- */
+/* ------------------middle  what i do ---- ----------- */
 
 .middle{
     width: 80%;
@@ -256,6 +265,7 @@ button:hover{
     
     
 }
+/* ------------background coloms------------33--------------- */
 
 .colums{
     width: 100%;
@@ -264,13 +274,16 @@ button:hover{
     grid-gap: 10px;
     margin: 10px;
     padding: 20px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: #Fff;
+    padding-left: 50px;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.5);
+    
 
 }
 
 
 
-
+/* -------------what id colums 3---part4------------- */
 
 .slid{
     width: 350px;
@@ -280,8 +293,16 @@ button:hover{
     border: 2px black solid;
     padding: 20px;
     text-align: center;
-    transition: 0.5s;
+  
+    transition: transform 0.8s;
     margin: 10px 0;
+    
+}
+/* ---------------zooming css----------------- */
+.slid:hover{
+    
+    transform: scale(1.1);
+
     
 }
 .slid .fa{
@@ -306,12 +327,11 @@ button:hover{
     line-height: 1.4;
     
 }
-.slid:hover{
-    
-    transform: translateY(-10px);
-}
 
-/* -------------------projects--------------------- */
+/* ------stop-------what id colums 3---part4------------- */
+
+
+/* -------------------projects-------part 5-------------- */
 .projects{
     margin: 10% 0;
     width: 100%;
@@ -406,7 +426,7 @@ button:hover{
     text-align: center;
 }
 
-/* --------what can i do-------------------------- */
+/* --------what can i do------------- part 6------------- */
 
 .box5{
     width: 80%;
@@ -469,7 +489,7 @@ button:hover{
     
 }
 
-/* ------------------part 5--contac----------------- */
+/* ------------------part 7--contac----------------- */
 
 .heading{
     width: 90%;
